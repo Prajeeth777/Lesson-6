@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+
+    <title>Registration Form</title>
+
+</head>
+
+<body>
+    <h2>Group The Form Fields</h2>
+
+    <form>
+        <fieldset>
+        <legend>Personal Details</legend>
+        <label>Name: </label>
+        <input type="textbox" placeholder="Enter Your Name"><br><br>
+
+        <label>Email ID: </label>
+        <input type="textbox" placeholder="Enter Your Email ID"><br><br>
+
+        <label>Contact Number: </label>
+        <input type="textbox" placeholder="This will be hidden"><br><br>
+
+        <label>Age: </label>
+        <input type="textbox" placeholder="Enter Your Age"><br><br>
+
+        <label>Gender: </label><br><br>
+        <input type="radio" value="Male">Male<br><br>
+        <input type="radio" value="Female">Female<br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Eductional Details</legend>
+            <label>Grade: </label><br><br>
+            <input type="radio" value="Elementary">Elementary School<br><br>
+            <input type="radio" value="Middle">Middle School<br><br>
+            <input type="radio" value="High">High School<br><br>
+            <input type="radio" value="Uni">University<br><br>
+        </fieldset>
+        <fieldset>
+        <legend>Other Details</legend>
+        <label>Favorite City:</label><br>
+        <input type="checkbox" value="par">Paris<br>
+        <input type="checkbox" value="tyo">Tokyo<br>
+        <input type="checkbox" value="rio">Rio De Jeneiro<br>
+        <input type="checkbox" value="dxb">Dubai<br>
+        <input type="checkbox" value="dur">Durban<br>
+        <input type="checkbox" value="nyc">New York City<br><br>
+        </fieldset>
+        <input type="submit" value="Submit Form" </form>
+
+</body>
+
+</html>
